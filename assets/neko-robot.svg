@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="300" height="300" viewBox="0 0 300 300">
+
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9B4E8"/>
+      <stop offset="100%" stop-color="#8D55D8"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="300" height="300" rx="24" fill="#0D1117"/>
+
+  <!-- Floating animation -->
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 -5;0 0"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+    <!-- Cat ears -->
+    <path d="M70 110 L65 40 L125 82 Z"
+          fill="url(#fur)" stroke="#FF69B4" stroke-width="4"/>
+
+    <path d="M175 82 L235 40 L230 110 Z"
+          fill="url(#fur)" stroke="#FF69B4" stroke-width="4"/>
+
+    <path d="M78 86 L75 55 L104 82 Z" fill="#FF69B4"/>
+    <path d="M196 82 L225 55 L222 86 Z" fill="#FF69B4"/>
+
+    <!-- Robot head -->
+    <rect x="55" y="75" width="190" height="150"
+          rx="45" fill="url(#fur)"
+          stroke="#FF69B4" stroke-width="4"/>
+
+    <!-- Face screen -->
+    <rect x="72" y="100" width="156" height="94"
+          rx="25" fill="#0D1117"
+          stroke="#C084FC" stroke-width="3"/>
+
+    <!-- Left eye -->
+    <g>
+      <ellipse cx="115" cy="139" rx="14" ry="18"
+               fill="#FF69B4" filter="url(#glow)">
+        <animate
+          attributeName="ry"
+          values="18;18;2;18;18"
+          keyTimes="0;0.43;0.48;0.53;1"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </ellipse>
+
+      <circle cx="119" cy="135" r="5" fill="#FFFFFF">
+        <animate
+          attributeName="cx"
+          values="119;124;119;111;119"
+          dur="3s"
+          repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Right eye -->
+    <g>
+      <ellipse cx="185" cy="139" rx="14" ry="18"
+               fill="#C084FC" filter="url(#glow)">
+        <animate
+          attributeName="ry"
+          values="18;18;2;18;18"
+          keyTimes="0;0.43;0.48;0.53;1"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </ellipse>
+
+      <circle cx="189" cy="135" r="5" fill="#FFFFFF">
+        <animate
+          attributeName="cx"
+          values="189;194;189;181;189"
+          dur="3s"
+          repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Mouth -->
+    <path d="M130 165 Q150 180 170 165"
+          fill="none" stroke="#FF69B4"
+          stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Cheeks -->
+    <circle cx="87" cy="157" r="7" fill="#FF69B4" opacity="0.7"/>
+    <circle cx="213" cy="157" r="7" fill="#FF69B4" opacity="0.7"/>
+
+    <!-- Headset -->
+    <path d="M53 130 Q35 75 80 65"
+          fill="none" stroke="#C084FC" stroke-width="9"/>
+
+    <rect x="37" y="117" width="23" height="40"
+          rx="9" fill="#702963" stroke="#FF69B4" stroke-width="3"/>
+
+    <path d="M247 130 Q265 75 220 65"
+          fill="none" stroke="#C084FC" stroke-width="9"/>
+
+    <rect x="240" y="117" width="23" height="40"
+          rx="9" fill="#702963" stroke="#FF69B4" stroke-width="3"/>
+
+    <!-- Robot body -->
+    <rect x="100" y="222" width="100" height="42"
+          rx="16" fill="#25113F"
+          stroke="#FF69B4" stroke-width="3"/>
+
+    <circle cx="130" cy="243" r="5" fill="#FF69B4">
+      <animate attributeName="opacity"
+               values="1;0.3;1"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="150" cy="243" r="5" fill="#C084FC">
+      <animate attributeName="opacity"
+               values="0.3;1;0.3"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="170" cy="243" r="5" fill="#FF69B4">
+      <animate attributeName="opacity"
+               values="1;0.3;1"
+               dur="1.2s"
+               repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating hearts -->
+  <text x="24" y="195" font-size="20" fill="#FF69B4">♥
+    <animate attributeName="y"
+             values="195;180;195"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="254" y="205" font-size="18" fill="#C084FC">✦
+    <animate attributeName="y"
+             values="205;190;205"
+             dur="2.5s"
+             repeatCount="indefinite"/>
+  </text>
+
+</svg>
