@@ -1,16 +1,39 @@
-## Hi there 👋
+<h1 align="center">🌸 Muhammad Irfansyah 🌸</h1>
 
-<!--
-**IRFANSYAH0705/IRFANSYAH0705** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">
+  Informatics Engineering Student 💻
+</h3>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;Learning+Web+Development;Keep+Learning+and+Creating+%E2%9D%A4%EF%B8%8F"
+  alt="Typing Animation">
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 💗 About Me
+
+- 👋 Hello, I'm Muhammad Irfansyah.
+- 🎓 Informatics Engineering Student.
+- 💻 Currently learning Web Development.
+- 🌱 Learning HTML, CSS, and JavaScript.
+- ✨ Building creative projects.
+
+## 🛠️ My Skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode">
+</p>
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=IRFANSYAH0705&show_icons=true&theme=tokyonight&hide_border=true" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IRFANSYAH0705&layout=compact&theme=tokyonight&hide_border=true" height="165">
+</p>
+
+---
+
+<p align="center">
+  💜 Keep Learning, Keep Creating 💗
+</p>
